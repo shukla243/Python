@@ -2,7 +2,7 @@ class Animal:
     def __init__(self, species):
         self.species = species
     def Details(self):
-        print("species:", self.species)
+        print("Species:", self.species)
 
 class Cat(Animal):
     def __init__(self, species, voice):
@@ -10,7 +10,7 @@ class Cat(Animal):
         self.voice = voice
     def Meow(self):
         self.Details()
-        print("voice:", self.voice)
+        print("Voice:", self.voice)
 
 class Kitten(Cat):
     def __init__(self, species, voice, baby):
