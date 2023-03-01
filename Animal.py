@@ -17,7 +17,7 @@ class Kitten(Cat):
         Cat.__init__(self, species, voice)
         self.baby = baby
     def Baby(self):
-        self.meow()
+        self.Meow()
         print("baby:", self.baby)
 
 #c = Cat("Cat", "meow")
