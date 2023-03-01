@@ -18,13 +18,13 @@ class Kitten(Cat):
         self.baby = baby
     def Baby(self):
         self.Meow()
-        print("baby:", self.baby)
+        print("Baby:", self.baby)
 
-#c = Cat("Cat", "meow")
+#c = Cat("cat", "meow")
 #c.Meow()
 #print()
 
-k = Kitten("Cat", "meow", "kitten")
+k = Kitten("cat", "meow", "kitten")
 k.Baby()
 print()
 
