@@ -11,7 +11,7 @@ class B(A):
 
     def fun1(self):
         print('Modified feature_1 of class A by class B')
-
+        #super().fun1()
     def fun3(self):
         print('feature_3 of class B')
 
