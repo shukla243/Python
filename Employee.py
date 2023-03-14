@@ -11,9 +11,6 @@ class Employee():
     def Emp(self):
             print("Name:",self.name,", Designation:",self.desig,", Salary:",self.salary)
 
-#e1 = ["Shukla","Manager",80000]
-#Emp(*e1)
-
 e1 = Employee('Shukla','Manager',s=80000)
 e1.Emp()
 
