@@ -1,5 +1,6 @@
 class Employee():
     count = 0
+
     def __init__(self,*args,**kwargs):
         self.name = args[0]
         self.desig = args[1]
